@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+
+
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+    <link rel="stylesheet" href="aspecto.css"/>
+    <script></script>
+</head>
+
+<body>
+    <div>
+
+        <header>
+            <h1></h1>
+        </header>
+
+        <nav>
+            <ul>
+                <li>Inicio</li>
+                <li>
+                    Personajes 
+                    <ul>
+                        <li>Alpha Kids</li> 
+                        <li>Beta Kids</li>
+                        <li>Alpha Trolls</li>
+                        <li>Beta Trolls</li>
+                    </ul>
+                </li>
+                <li>Espacio Paradójico</li>
+            </ul>
+        </nav>
+
+
+Bienveido a ______, una pagina sobre Homestuck donde podrás encontrar información sobre tus personajes favoritos y encontrar las creaciones de los mejores artistas en internet sobre los mismos.
+
+        <footer></footer>
+
+    </div>
+</body>
