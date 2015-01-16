@@ -1,41 +1,85 @@
 <!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		
+		<title>ASLKDAD</title>
 
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
+		<link rel="stylesheet" href="aspecto.css"/>
+		<script></script>
+	</head>
 
-    <link rel="shortcut icon" href="/favicon.ico">
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+	<body>
+		<div class="bck">
 
-    <link rel="stylesheet" href="aspecto.css"/>
-    <script></script>
-</head>
+			<header>
+				<h1>ASLKDAD</h1>
+			</header>
 
-<body>
-    <div>
-
-        <header>
-            <h1></h1>
-        </header>
-
-        <nav>
-            <ul>
-                <li>Inicio</li>
-                <li>
-                    Personajes 
-                    <ul>
-                        <li>Alpha Kids</li> 
-                        <li>Beta Kids</li>
-                        <li>Alpha Trolls</li>
-                        <li>Beta Trolls</li>
-                    </ul>
-                </li>
-                <li>Espacio Paradójico</li>
-            </ul>
-        </nav>
-
-
-Bienveido a ______, una pagina sobre Homestuck donde podrás encontrar información sobre tus personajes favoritos y encontrar las creaciones de los mejores artistas en internet sobre los mismos.
-
-        <footer></footer>
-
-    </div>
-</body>
+			<nav>
+				<ul>
+					<li>Inicio</li>
+					<li>
+						Personajes 
+						<ul>
+							<li>Alpha Kids</li>	
+							<li>Beta Kids</li>
+							<li>Alpha Trolls</li>
+							<li>Beta Trolls</li>
+							<li>Exiliados</li>
+						</ul>
+					</li>
+					<li>
+						Incipisphere
+								<ul>
+									<li>Skaia</li>
+									<li>Prospit</li>
+									<li>Derse</li>
+									<li>El Velo</li>
+									<li>Planetas</li>
+									<li>
+										Otros Lugares
+										<ul>
+											<li>Anillo Lejano</li>
+											<li>Sol Verde</li>
+											<li>Tierra</li>
+										</ul>
+									</li>
+								</ul>
+					</li>
+					<li>Dibujos</li>
+				</ul>
+			</nav>
+			
+		
+			<aside>
+				<p class="title izquierdo">Navegaci&oacute;n de Usuario</p>
+				<fieldset>
+				<form action="backend.html" method="post">
+				<label for="name">Usuario </label><input type="text" id="name"> 
+				<br/>
+				<label for="pass">Contraseña </label><input type="password" id="pass"/> <br/>
+				<input type="submit" value="Entrar" />
+				</form>
+				</fieldset>
+			</aside>
+			
+			<section>
+				<article>
+					<h2>ASLKDAD</h2>
+					Bienveido a ASLKDAD, una pagina sobre Homestuck donde podrás encontrar información sobre tus personajes favoritos y encontrar las creaciones de los mejores artistas en internet sobre los mismos.
+				</article>
+			</section>
+			
+			<aside>
+				<p class="title derecho">Otros</p>
+				<p><a href="proyecto.html">Página de Proyecto</a></p>
+			</aside>
+		
+		
+		</div>
+	</body>
+</html>
