@@ -1,5 +1,20 @@
 body {
+	background: blue;
+}
 
+.bck {
+	width: 80%;
+	margin: 0 auto;
+	/*border: 10px solid black;*/
+
+}
+
+p {
+	margin-left: 20px;
+}
+
+h2 {
+	font-size: 16px;
 }
 
 .proyecth1 {
@@ -10,4 +25,69 @@ body {
 .proyectp {
 	font: Arial 10px;
 	text-align: center;
+}
+
+header {
+	float: left;
+	width: 100%;
+}
+
+.cab {
+	text-align: center;
+}
+
+.titlecab {
+	font-size: 50px;
+	font-family:"Edwardian Script ITC";
+}
+
+nav {
+	text-align: center;
+	border: 2px solid black;
+	float: left;
+	width: 100%;
+}
+
+aside {
+	float: left;
+	border: 5px solid black;
+	margin-top: 20px;
+}
+
+.userbar{
+	width: 220px;
+}
+
+.other {
+	width: 200px;
+}
+
+section {
+	float: left;
+	width: 582px;
+	border: 2px solid black;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+footer {
+	margin-top: 20px;
+	width: 100%;
+	border: 2px solid black;
+	float: left;
+}
+
+.pieizq {
+	/*margin-left: 20px;*/
+	float: left;
+}
+
+.pieder {
+	margin-right: 20px;
+	float: right;
+}
+
+.pie {
+	/*margin-left: 20px;*/
 }
