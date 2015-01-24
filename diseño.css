@@ -1,5 +1,6 @@
 body {
-	background: blue;
+	background: url("background1.png") /*repeat-y*/ fixed;
+	color: /*rgb(33, 222, 12)*/ white;
 }
 
 .bck {
@@ -17,6 +18,10 @@ h2 {
 	font-size: 16px;
 }
 
+input {
+	padding: .2em;
+}
+
 .proyecth1 {
 	font: Arial 14px;
 	color: orange;
@@ -28,6 +33,7 @@ h2 {
 }
 
 header {
+	color: black;
 	float: left;
 	width: 100%;
 }
@@ -42,15 +48,114 @@ header {
 }
 
 nav {
+	background: black;
 	text-align: center;
-	border: 2px solid black;
+	border: 2px solid white;
 	float: left;
 	width: 100%;
 }
 
+ul#topbar {
+	text-align: left;
+	display: inline;
+	margin: 0;
+	padding: 15px, 4px, 17px, 0;
+	list-style: none;
+}
+
+ul#topbar li {
+	text-align: center;
+	font: bold 24px/18px sans-serif;
+	display: inline-block;
+	margin-right: -4px;
+	position: relative;
+	padding: 15px 20px;
+	background: black;
+	width: 210px;
+	cursor: pointer;
+}
+
+ul#topbar li:hover {
+	background: white;
+	color: black;
+	
+}
+
+ul#topbar li ul {
+	padding: 0;
+	position: absolute;
+	top: 48px;
+	left: 0;
+	/*width: 400px;*/
+	display: none;
+	opacity: 0;
+	visibility: hidden;
+	
+}
+
+ul#topbar li:hover ul {
+	display: block;
+	opacity: 1;
+	visibility: visible;
+}
+
+ul#topbar li ul li {
+	background: white;
+	display: block;
+	color: black;
+	width: 260px;
+	text-align: left;
+}
+
+ul#topbar li ul li:hover {
+	background: grey;
+	
+}
+
+ul#topbar li ul li ul {
+	padding: 0;
+	position: absolute;
+	top: 0;
+	left: 300px;
+	
+}
+
+ul#topbar li:hover ul li ul {
+	display: none;
+	opacity: 0;
+	visibility: hidden;
+}
+
+ul#topbar li ul li:hover ul {
+	display: block;
+	opacity: 1;
+	visibility: visible;
+}
+
+ul#topbar li ul li ul li {
+	background: white;
+	display: block;
+	color: black;
+}
+
+ul#topbar li ul li ul li:hover {
+	background: grey;
+}
+
+form#formuser label {
+  	display: block;
+  	margin: .5em 0 0 0;
+}
+
+input.btn {
+	display: block;
+  	margin: 1em 0;
+}
+
 aside {
+	background: black;
 	float: left;
-	border: 5px solid black;
+	border: 5px solid white;
 	margin-top: 20px;
 }
 
@@ -63,18 +168,20 @@ aside {
 }
 
 section {
+	background: black;
 	float: left;
 	width: 582px;
-	border: 2px solid black;
+	border: 2px solid white;
 	margin-top: 20px;
 	margin-left: 20px;
 	margin-right: 20px;
 }
 
 footer {
+	background: black;
 	margin-top: 20px;
 	width: 100%;
-	border: 2px solid black;
+	border: 2px solid white;
 	float: left;
 }
 
